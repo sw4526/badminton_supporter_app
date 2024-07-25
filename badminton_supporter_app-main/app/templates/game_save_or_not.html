@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/game_save_or_not.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Ga+Maamli&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="head">
+    <div class="logo">app name </div>
+  </div>
+<div class="card">
+<div class="header">
+      <span class="title">시작하기 전에..</span>
+        <span class="price">경기 설정</span>
+    </div>
+    <p class="desc">사용할 기능을 선택하세요</p>
+      <ul class="lists">
+        <li class="list">
+          <svg id="check1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path onclick="color_change1();" fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+        <span>경기기록 저장</span>
+        </li>
+        <li class="list">
+            <svg id="check2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path onclick="color_change2();" fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            <span>하이라이트 저장</span>
+        </li>
+    </ul>
+    <div class="box">
+        <button type="button" class="action">저장</button>
+        <a href="main_page_login.html" class="not_save">저장하지 않기</a>
+    </div>
+</div>
+
+  <script src="/static/game_save_or_not.js"></script>
+</body>
+</html>

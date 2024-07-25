@@ -1,0 +1,67 @@
+
+.logo{
+    font-family: "Ga Maamli", sans-serif;
+    width: 100%;
+    font-size: 40px;
+    font-style: normal;
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    background-color: rgba(17, 24, 39, 1);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  color: #fff;
+}
+.rog{
+  height: 40%;
+  width: 40%;
+  margin: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.highlight{
+  height: 40%;
+  min-height: 40%;
+  max-height: 40%;
+  width: 40%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.item{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+body{
+  background-color: rgba(17, 24, 39, 1);
+}
