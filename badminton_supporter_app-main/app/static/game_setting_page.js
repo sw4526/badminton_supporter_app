@@ -30,3 +30,7 @@ function color_change3() {
         check3.style.color = "fff"
         return false;
 }}
+
+function start(){
+    location.href('http://172.18.212.211:8000/test3.py')
+}

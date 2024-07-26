@@ -52,5 +52,10 @@ def score_board():
 	return render_template('score_board.html')
 # 점수판 페이지
 
+@app.route('/test3.py')
+def test():
+	return render_template('test3.py')
+# 점수판 페이지
+
 if __name__ == '__main__' :   
 	app.run(host='0.0.0.0', port=8000, debug=True)
