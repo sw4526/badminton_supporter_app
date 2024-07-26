@@ -9,3 +9,7 @@ function comming_soon(){
 function move_game_setting(){
     location.href = "game_setting_page.html";
 }
+
+function move_score_board(){
+    location.href = "score_board.html";
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(17, 24, 39, 1);
+    color: fff;
+    margin: 0;
+}
+.scoreboard {
+    text-align: center;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: fff;
+}
+.score {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #fff;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+}
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset-button {
+    background-color: red;
+    color: white;
+}
+.history {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 50%;
+}
+.history ul {
+    list-style-type: none;
+    padding: 0;
+}
+.history li {
+    margin: 5px 0;
+    padding: 5px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+.player-input {
+    margin-bottom: 10px;
+}
+.player-input input {
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.logo{
+    font-family: "Black Han Sans", sans-serif;
+    width: 100%;
+    font-size: 40px;
+    font-style: normal;
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    background-color: rgba(17, 24, 39, 1);
+}
+
+label{
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}

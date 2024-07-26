@@ -47,5 +47,10 @@ def game_setting_page():
 	return render_template('game_setting_page.html')
 #실생 세팅 페이지(나중에 실행페이지 만들고 연결해야함)
 
+@app.route('/score_board.html')
+def score_board():
+	return render_template('score_board.html')
+# 점수판 페이지
+
 if __name__ == '__main__' :   
 	app.run(host='0.0.0.0', port=8000, debug=True)
